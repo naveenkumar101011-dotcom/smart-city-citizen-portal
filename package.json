@@ -1,0 +1,27 @@
+{
+  "name": "smart-city-citizen-system-portal",
+  "version": "1.0.0",
+  "description": "Full-stack Smart City Citizen Portal with Grievance Redressal, Utility Bills & Payments, E-Permits, Live Mobility, and Municipal Admin Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node -e \"require('./database').initDatabase()\""
+  },
+  "keywords": [
+    "smart-city",
+    "citizen-portal",
+    "e-governance",
+    "grievance-redressal",
+    "municipal-services",
+    "utility-payments"
+  ],
+  "author": "Smart City Municipal Corporation",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1"
+  }
+}
